@@ -1,0 +1,17 @@
+{
+  "name": "figma-glyph-list",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lay out every character of an installed font in Figma, for proofing.",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node build.mjs --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.100.0",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.6.0"
+  }
+}
